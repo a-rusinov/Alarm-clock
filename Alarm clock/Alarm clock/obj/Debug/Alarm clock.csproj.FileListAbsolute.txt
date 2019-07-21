@@ -1,0 +1,11 @@
+C:\Cloud\OneDrive - it earth\Sources\Workspaces\Alarm clock\Alarm clock\bin\Debug\Alarm clock.exe.config
+C:\Cloud\OneDrive - it earth\Sources\Workspaces\Alarm clock\Alarm clock\bin\Debug\Alarm clock.exe
+C:\Cloud\OneDrive - it earth\Sources\Workspaces\Alarm clock\Alarm clock\bin\Debug\Alarm clock.pdb
+C:\Cloud\OneDrive - it earth\Sources\Workspaces\Alarm clock\Alarm clock\obj\Debug\Alarm clock.csprojAssemblyReference.cache
+C:\Cloud\OneDrive - it earth\Sources\Workspaces\Alarm clock\Alarm clock\obj\Debug\Alarm_clock.Form1.resources
+C:\Cloud\OneDrive - it earth\Sources\Workspaces\Alarm clock\Alarm clock\obj\Debug\Alarm_clock.Properties.Resources.resources
+C:\Cloud\OneDrive - it earth\Sources\Workspaces\Alarm clock\Alarm clock\obj\Debug\Alarm clock.csproj.GenerateResource.cache
+C:\Cloud\OneDrive - it earth\Sources\Workspaces\Alarm clock\Alarm clock\obj\Debug\Alarm clock.csproj.CoreCompileInputs.cache
+C:\Cloud\OneDrive - it earth\Sources\Workspaces\Alarm clock\Alarm clock\obj\Debug\Alarm clock.exe
+C:\Cloud\OneDrive - it earth\Sources\Workspaces\Alarm clock\Alarm clock\obj\Debug\Alarm clock.pdb
+C:\Cloud\OneDrive - it earth\Sources\Workspaces\Alarm clock\Alarm clock\bin\Debug\Backpacker.wav
