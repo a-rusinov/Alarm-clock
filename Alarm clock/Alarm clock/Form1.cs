@@ -19,6 +19,8 @@ namespace Alarm_clock
         }
 
         FontDialog FD = new FontDialog();
+        ColorDialog cd = new ColorDialog();
+        frmAboutBox frmAbout = new frmAboutBox();
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -26,6 +28,8 @@ namespace Alarm_clock
             btn_SelectFont.Text = "Выбор Шрифта...";
             btn_Start.Text = "Завести Будильник";
             btn_Stop.Text = "Остановить Будильник";
+            btn_About.Text = "О Программе...";
+            btn_SelectColorForm.Text = "Выбор Цвета...";
 
             this.AutoSize = false;
             this.MaximizeBox = false;
@@ -54,6 +58,9 @@ namespace Alarm_clock
         {
             FD.ShowDialog();
             label1.Font = FD.Font;
+            label2.Font = FD.Font;
+            maskedTextBox1.Font = FD.Font;
+          
         }
 
         private void Btn_Start_Click(object sender, EventArgs e)
@@ -98,6 +105,17 @@ namespace Alarm_clock
             btn_Start.Text = "Завести Будильник";
             b = false;
 
+        }
+
+        private void Btn_About_Click(object sender, EventArgs e)
+        {
+            frmAbout.ShowDialog(this);
+        }
+
+        private void Btn_SelectColorForm_Click(object sender, EventArgs e)
+        {
+            cd.ShowDialog();
+            this.ForeColor = cd.Color;
         }
     }
 }

@@ -36,6 +36,8 @@
             this.btn_Stop = new System.Windows.Forms.Button();
             this.btn_SelectFont = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
+            this.btn_SelectColorForm = new System.Windows.Forms.Button();
+            this.btn_About = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // timer1
@@ -57,7 +59,6 @@
             this.btn_Start.Name = "btn_Start";
             this.btn_Start.Size = new System.Drawing.Size(170, 23);
             this.btn_Start.TabIndex = 1;
-            this.btn_Start.Text = "button1";
             this.btn_Start.UseVisualStyleBackColor = true;
             this.btn_Start.Click += new System.EventHandler(this.Btn_Start_Click);
             // 
@@ -76,7 +77,6 @@
             this.btn_Stop.Name = "btn_Stop";
             this.btn_Stop.Size = new System.Drawing.Size(170, 23);
             this.btn_Stop.TabIndex = 3;
-            this.btn_Stop.Text = "button2";
             this.btn_Stop.UseVisualStyleBackColor = true;
             this.btn_Stop.Click += new System.EventHandler(this.Btn_Stop_Click);
             // 
@@ -86,7 +86,6 @@
             this.btn_SelectFont.Name = "btn_SelectFont";
             this.btn_SelectFont.Size = new System.Drawing.Size(170, 23);
             this.btn_SelectFont.TabIndex = 4;
-            this.btn_SelectFont.Text = "button3";
             this.btn_SelectFont.UseVisualStyleBackColor = true;
             this.btn_SelectFont.Click += new System.EventHandler(this.Btn_SelectFont_Click);
             // 
@@ -99,11 +98,31 @@
             this.label2.TabIndex = 5;
             this.label2.Text = "label2";
             // 
+            // btn_SelectColorForm
+            // 
+            this.btn_SelectColorForm.Location = new System.Drawing.Point(370, 56);
+            this.btn_SelectColorForm.Name = "btn_SelectColorForm";
+            this.btn_SelectColorForm.Size = new System.Drawing.Size(124, 23);
+            this.btn_SelectColorForm.TabIndex = 7;
+            this.btn_SelectColorForm.UseVisualStyleBackColor = true;
+            this.btn_SelectColorForm.Click += new System.EventHandler(this.Btn_SelectColorForm_Click);
+            // 
+            // btn_About
+            // 
+            this.btn_About.Location = new System.Drawing.Point(370, 12);
+            this.btn_About.Name = "btn_About";
+            this.btn_About.Size = new System.Drawing.Size(124, 23);
+            this.btn_About.TabIndex = 8;
+            this.btn_About.UseVisualStyleBackColor = true;
+            this.btn_About.Click += new System.EventHandler(this.Btn_About_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(417, 145);
+            this.ClientSize = new System.Drawing.Size(506, 145);
+            this.Controls.Add(this.btn_About);
+            this.Controls.Add(this.btn_SelectColorForm);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btn_SelectFont);
             this.Controls.Add(this.btn_Stop);
@@ -127,6 +146,8 @@
         private System.Windows.Forms.Button btn_Stop;
         private System.Windows.Forms.Button btn_SelectFont;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button btn_SelectColorForm;
+        private System.Windows.Forms.Button btn_About;
     }
 }
 
